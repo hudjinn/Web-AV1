@@ -1,0 +1,29 @@
+@charset "UTF-8";
+label {
+    color: blue;
+    font-weight: bold;
+}
+
+h1, a, td, th {
+    color: #133a63; 
+}
+
+button {
+    border-radius: 5px;
+}
+table {
+    border-collapse: collapse; /* Remove os espaços entre as bordas das células */
+    margin: 20px;
+}
+
+th, td {
+    border: 1px solid black; /* Define uma borda sólida, preta e com 1px de largura para as células */
+    margin: 10px;
+}
+td.left-align {
+    text-align: right;
+}
+tr.tohide {
+    color: white;
+    visibility: hidden;
+}
